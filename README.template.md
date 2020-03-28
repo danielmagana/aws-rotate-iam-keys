@@ -285,6 +285,10 @@ Visit us on the web at
 instructions in a snazzy single-page UI. It's basically this README with some
 colors.
 
+### Get In Touch
+
+Did you open a PR or find a bug and more than a few days have passed? Hit me up on email at **awsRotateKeys@rhyeal.com** and I'll address the issue promptly!
+
 ## Checksums
 
 ### Ubuntu/Debian
@@ -295,8 +299,12 @@ echo ${LINUX_MD5} aws-rotate-iam-keys.${VERSION}.deb | md5sum --check -
 
 ### MacOS
 
-Homebrew gets the release zip of the entire repo: `SHA256 997230eb7c75282a951ee4e83310f2830e453a1e121cfe84cfd4733a69b6d3b9`
+Homebrew gets the release zip of the entire repo: `SHA256 ${HOMEBREW_SHA}`
 
 ### Windows
 
 PowerShell script file: `MD5 ${WIN_MD5}`
+
+## Changes to this file
+
+${TEMPLATE_DISCLAIMER}
